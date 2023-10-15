@@ -49,10 +49,10 @@ import {
       title: "React Native Developer",
       icon: mobile,
     },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
     {
       title: "Content Creator",
       icon: creator,
