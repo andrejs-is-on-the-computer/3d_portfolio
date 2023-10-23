@@ -24,18 +24,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from './tech/bootstrap.png';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 //work experience images
 import lawcadia from  "./company/lawcadia.png";
 import alight from './company/alight.png';
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+//project images
+import financedashboard from "./financedashboard.png"
 
 export {
   logo,
@@ -59,13 +53,8 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+
+  financedashboard,
 
   lawcadia,
   alight,
