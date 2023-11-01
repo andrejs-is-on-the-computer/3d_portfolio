@@ -21,6 +21,11 @@ import {
     lawcadia,
     alight,
     financedashboard,
+    aitshirt,
+
+    males,
+    females,
+    cats,
   } from "../assets";
   
   export const navLinks = [
@@ -140,31 +145,52 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "What a good son. Not as good as his sister, but at least he is trying.",
+      name: "My Mum",
+      designation: "Parent",
+      company: "Bicevskis Family",
+      image: females,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "He lost my leather jacket and stole my Dr. Martens boots. I have not entirely forgiven him for this.",
+      name: "My Brother",
+      designation: "Sibling",
+      company: "Bicevskis Family",
+      image: males,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Meow meow meow, meow meow. Meow?",
+      name: "Bashir",
+      designation: "Beloved Cat",
+      company: "Our Home",
+      image: cats,
     },
   ];
   
   const projects = [
+    {
+      name: "T-Shirt designer with AI",
+      description:
+        "Design a shirt uploading your own logo or background, or type in a prompt for the AI to generate those for you.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "threejs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "openAI",
+          color: "green-text-gradient",
+        },
+      ],
+      image: aitshirt,
+      source_code_link: "https://github.com/andrejs-is-on-the-computer/AI-tshirt-designer--react-3js-",
+    },
     {
       name: "Finance Dashboard",
       description:

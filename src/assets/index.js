@@ -29,7 +29,13 @@ import lawcadia from  "./company/lawcadia.png";
 import alight from './company/alight.png';
 
 //project images
-import financedashboard from "./financedashboard.png"
+import financedashboard from "./financedashboard.png";
+import aitshirt from './tshirtdesigner.png';
+
+//testimony images
+import males from "./maleshadow.png";
+import females from "./femaleshadow.png";
+import cats from "./catshadow.png";
 
 export {
   logo,
@@ -55,6 +61,11 @@ export {
   threejs,
 
   financedashboard,
+  aitshirt,
+
+  males,
+  females,
+  cats,
 
   lawcadia,
   alight,
