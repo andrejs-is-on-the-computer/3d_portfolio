@@ -37,7 +37,8 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              {link.link ? <Link to={`${link.link}`} target="_blank" rel="noopener noreferrer">{link.title}</Link> : <a href={`#${link.id}`}>{link.title}</a>}
+              {/* <a href={`#${link.id}`}>{link.title}</a> */}
             </li>
           ))}
         </ul>

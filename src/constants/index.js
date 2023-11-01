@@ -32,14 +32,22 @@ import {
     {
       id: "about",
       title: "About",
+      link: false,
     },
     {
       id: "work",
       title: "Work",
+      link: false,
     },
     {
       id: "contact",
       title: "Contact",
+      link: false,
+    },
+    {
+      id: "github",
+      title: "GitHub",
+      link: "https://github.com/andrejs-is-on-the-computer"
     },
   ];
   
