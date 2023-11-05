@@ -197,7 +197,7 @@ import {
         },
       ],
       image: aitshirt,
-      source_code_link: "https://github.com/andrejs-is-on-the-computer/AI-tshirt-designer--react-3js-",
+      source_code_link: "https://github.com/andrejs-is-on-the-computer/AI-tshirt-designer--react-3js",
     },
     {
       name: "Finance Dashboard",
